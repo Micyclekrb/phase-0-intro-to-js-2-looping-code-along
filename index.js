@@ -18,16 +18,13 @@ const wrapGifts = (gifts) => {
 wrapGifts(gifts);
 */
 
-const names = []
-debugger
-const occasion = "" 
-debugger
+const names = [];
+const occasion = ""; 
 const writeCards = (names) => {
     for (let i = 0; i < names.length; i++) {
         console.log(`Thank you, ${names[i]}, for the wonderful ${occasion} gift!`);
     };
-    debugger
 };
 
-writeCards(["Guadalupe", "Ollie", "Aki"], "surprise") 
+writeCards(["Guadalupe", "Ollie", "Aki"], "surprise");
 
