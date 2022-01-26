@@ -17,7 +17,7 @@ const wrapGifts = (gifts) => {
 
 wrapGifts(gifts);
 */
-
+//PART 1 ASSIGNMENT
 const names = [];
 const occasion = ""; 
 const writeCards = (names) => {
@@ -25,6 +25,13 @@ const writeCards = (names) => {
         console.log(`Thank you, ${names[i]}, for the wonderful ${occasion} gift!`);
     };
 };
-
 writeCards(["Guadalupe", "Ollie", "Aki"], "surprise");
 
+//PART 2 ASSIGNMENT
+let countDown = () => {
+    let countDown = 10;
+    while (countDown >= 0) {
+        console.log(countDown--);
+    };
+};    
+countDown(10);
