@@ -25,7 +25,7 @@ const writeCards = (names, occasion) => {
     };
     return newArray;
 };
-writeCards(["Guadalupe", "Ollie", "Aki"], "surprise");
+//writeCards(["Guadalupe", "Ollie", "Aki"], "surprise");
 
 
 //PART 2 ASSIGNMENT
