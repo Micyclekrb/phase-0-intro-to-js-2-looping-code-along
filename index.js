@@ -18,14 +18,15 @@ const wrapGifts = (gifts) => {
 wrapGifts(gifts);
 */
 //PART 1 ASSIGNMENT
-const names = [];
-const occasion = ""; 
-const writeCards = (names) => {
+let newArray = [];
+const writeCards = (names, occasion) => {
     for (let i = 0; i < names.length; i++) {
-        console.log(`Thank you, ${names[i]}, for the wonderful ${occasion} gift!`);
+        newArray.push(`Thank you, ${names[i]}, for the wonderful ${occasion} gift!`);
     };
+    return newArray;
 };
 writeCards(["Guadalupe", "Ollie", "Aki"], "surprise");
+
 
 //PART 2 ASSIGNMENT
 let countDown = () => {
